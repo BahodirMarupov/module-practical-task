@@ -4,7 +4,7 @@ package jgm.workshop;
  * Author: Bakhodirjon_Marupov
  * Date: 13/06/2022
  */
-public class BankCard {
+public abstract class BankCard {
     private String number;
     private User user;
 
