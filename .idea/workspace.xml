@@ -4,21 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jmp-bank-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jmp-bank-api/src/main/java/jgm/workshop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jmp-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="1. Create maven project with 5 modules (see Java 9 modules)">
+      <change afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/BankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/BankCardType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/CreditBankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/DebitBankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-bank-api/src/main/java/jgm/workshop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-cloud-bank-impl/src/main/java/jgm/workshop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-cloud-service-impl/src/main/java/jgm/workshop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="301000" />
+      <workItem from="1655122645224" duration="1016000" />
     </task>
+    <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
+      <created>1655123154884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655123154884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Create maven project with 5 modules (see Java 9 modules)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Create maven project with 5 modules (see Java 9 modules)" />
   </component>
 </project>
