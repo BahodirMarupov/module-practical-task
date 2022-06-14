@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="16. Add module-info.java">
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/jgm/workshop/application/Application.java" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="17. Demonstrate functionality of created classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/BankCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/jgm/workshop/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/jgm/workshop/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="11569000" />
+      <workItem from="1655122645224" duration="13683000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -195,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655191085726</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="17. Demonstrate functionality of created classes">
+      <created>1655192377663</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655192377663</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +233,7 @@
     <MESSAGE value="13. Use var for definition of local variables wherever it’s applicable." />
     <MESSAGE value="15. Create application module." />
     <MESSAGE value="16. Add module-info.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="16. Add module-info.java" />
+    <MESSAGE value="17. Demonstrate functionality of created classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="17. Demonstrate functionality of created classes" />
   </component>
 </project>

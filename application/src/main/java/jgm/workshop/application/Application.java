@@ -28,6 +28,7 @@ public class Application {
                 "name2",
                 "surname2",
                 LocalDate.of(1993, Month.DECEMBER, 20));
+
         System.out.println("\n-------- Users initialized -----------");
         System.out.println(user1);
         System.out.println(user2);
@@ -37,6 +38,7 @@ public class Application {
         BankCard debitCardOfUser1 = bank.createBankCard(user1, DEBIT);
         BankCard creditCardOfUser2 = bank.createBankCard(user2, CREDIT);
         BankCard debitCardOfUser2 = bank.createBankCard(user2, DEBIT);
+
         System.out.println("\n-------- Bank cards initialized ------");
         System.out.println(creditCardOfUser1);
         System.out.println(debitCardOfUser1);
@@ -48,6 +50,7 @@ public class Application {
         service.subscribe(debitCardOfUser1);
         service.subscribe(creditCardOfUser2);
         service.subscribe(debitCardOfUser2);
+
         System.out.println("\n------- Subscriptions -----------------");
         service.getSubscriptionByBankCardNumber(creditCardOfUser1.getNumber())
                 .ifPresent(System.out::println);
@@ -57,8 +60,12 @@ public class Application {
                 .ifPresent(System.out::println);
         service.getSubscriptionByBankCardNumber(debitCardOfUser2.getNumber())
                 .ifPresent(System.out::println);
+
         System.out.println("\n------- All subscribed users ----------");
         System.out.println(service.getAllUsers());
+
+        System.out.println("\n------- Average users age -------------");
+        System.out.println(service.getAverageUsersAge());
 
     }
 }
