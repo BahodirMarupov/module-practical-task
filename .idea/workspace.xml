@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="10. Add module-info.java">
-      <change afterPath="$PROJECT_DIR$/jmp-cloud-service-impl/src/main/java/jgm/workshop/cloud/service/impl/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-cloud-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-cloud-service-impl/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="13. Use var for definition of local variables wherever it’s applicable.">
+      <change afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="module-info" />
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -66,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="9506000" />
+      <workItem from="1655122645224" duration="9886000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -138,7 +134,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655188689809</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="11. Implement Service into jmp-cloud-service-impl. User Stream API, You can use Memory/DB for data storing">
+      <created>1655190198044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655190198044</updated>
+    </task>
+    <task id="LOCAL-00012" summary="12. Add module-info.java">
+      <created>1655190294159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655190294159</updated>
+    </task>
+    <task id="LOCAL-00013" summary="13. Use var for definition of local variables wherever it’s applicable.">
+      <created>1655190401180</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655190401180</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +183,9 @@
     <MESSAGE value="8. Add module-info.java which" />
     <MESSAGE value="9. Add Service interface to jmp-service-api" />
     <MESSAGE value="10. Add module-info.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. Add module-info.java" />
+    <MESSAGE value="11. Implement Service into jmp-cloud-service-impl. User Stream API, You can use Memory/DB for data storing" />
+    <MESSAGE value="12. Add module-info.java" />
+    <MESSAGE value="13. Use var for definition of local variables wherever it’s applicable." />
+    <option name="LAST_COMMIT_MESSAGE" value="13. Use var for definition of local variables wherever it’s applicable." />
   </component>
 </project>
