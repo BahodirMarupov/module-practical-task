@@ -12,6 +12,15 @@ public class User {
     private String surname;
     private LocalDate birthday;
 
+    public User() {
+    }
+
+    public User(String name, String surname, LocalDate birthday) {
+        this.name = name;
+        this.surname = surname;
+        this.birthday = birthday;
+    }
+
     public String getName() {
         return name;
     }
@@ -49,5 +58,14 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash(name, surname, birthday);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", birthday=" + birthday +
+                '}';
     }
 }
