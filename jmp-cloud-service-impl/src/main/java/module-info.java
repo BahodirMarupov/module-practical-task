@@ -1,5 +1,3 @@
-import jgm.workshop.service.api.IService;
-
 /**
  * Author: Bakhodirjon_Marupov
  * Date: 14/06/2022
@@ -7,6 +5,8 @@ import jgm.workshop.service.api.IService;
 module jmp.cloud.service.impl {
     requires jmp.dto;
     requires transitive jmp.service.api;
-    provides IService with jgm.workshop.cloud.service.impl.Service;
     exports jgm.workshop.cloud.service.impl;
+
+    provides jgm.workshop.service.api.IService
+            with jgm.workshop.cloud.service.impl.Service;
 }

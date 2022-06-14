@@ -2,8 +2,6 @@ package jgm.workshop.application;
 
 import jgm.workshop.application.exception.SubscriptionNotFoundException;
 import jgm.workshop.bank.api.IBank;
-import jgm.workshop.cloud.bank.impl.Bank;
-import jgm.workshop.cloud.service.impl.Service;
 import jgm.workshop.dto.BankCard;
 import jgm.workshop.dto.Subscription;
 import jgm.workshop.dto.User;
@@ -11,6 +9,7 @@ import jgm.workshop.service.api.IService;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.ServiceLoader;
 
 import static jgm.workshop.dto.BankCardType.CREDIT;
 import static jgm.workshop.dto.BankCardType.DEBIT;
@@ -35,7 +34,7 @@ public class Application {
         System.out.println(user1);
         System.out.println(user2);
 
-        IBank bank = new Bank();
+        IBank bank = ServiceLoader.load(IBank.class).findFirst().orElseThrow(IllegalArgumentException::new);
         BankCard creditCardOfUser1 = bank.createBankCard(user1, CREDIT);
         BankCard debitCardOfUser1 = bank.createBankCard(user1, DEBIT);
         BankCard creditCardOfUser2 = bank.createBankCard(user2, CREDIT);
@@ -47,7 +46,7 @@ public class Application {
         System.out.println(creditCardOfUser2);
         System.out.println(debitCardOfUser2);
 
-        IService service = new Service();
+        IService service = ServiceLoader.load(IService.class).findFirst().orElseThrow(IllegalArgumentException::new);
         System.out.println("\n-------- Checking initial subscriptions --------");
         try {
             Subscription subscription = service.getSubscriptionByBankCardNumber(creditCardOfUser1.getNumber())
