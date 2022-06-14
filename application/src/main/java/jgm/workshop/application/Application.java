@@ -1,9 +1,11 @@
 package jgm.workshop.application;
 
+import jgm.workshop.application.exception.SubscriptionNotFoundException;
 import jgm.workshop.bank.api.IBank;
 import jgm.workshop.cloud.bank.impl.Bank;
 import jgm.workshop.cloud.service.impl.Service;
 import jgm.workshop.dto.BankCard;
+import jgm.workshop.dto.Subscription;
 import jgm.workshop.dto.User;
 import jgm.workshop.service.api.IService;
 
@@ -46,12 +48,22 @@ public class Application {
         System.out.println(debitCardOfUser2);
 
         IService service = new Service();
+        System.out.println("\n--- Checking initial subscriptions ---");
+        try {
+            Subscription subscription = service.getSubscriptionByBankCardNumber(creditCardOfUser1.getNumber())
+                    .orElseThrow(() -> new SubscriptionNotFoundException("Subscription is not recorder for cardNumber: "
+                            + creditCardOfUser1.getNumber()));
+            System.out.println(subscription);
+        } catch (SubscriptionNotFoundException exception) {
+            System.out.println(exception.getMessage());
+        }
+
         service.subscribe(creditCardOfUser1);
         service.subscribe(debitCardOfUser1);
         service.subscribe(creditCardOfUser2);
         service.subscribe(debitCardOfUser2);
 
-        System.out.println("\n------- Subscriptions -----------------");
+        System.out.println("\n------- Subscriptions ----------------");
         service.getSubscriptionByBankCardNumber(creditCardOfUser1.getNumber())
                 .ifPresent(System.out::println);
         service.getSubscriptionByBankCardNumber(debitCardOfUser1.getNumber())
