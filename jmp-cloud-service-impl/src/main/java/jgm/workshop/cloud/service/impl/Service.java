@@ -23,7 +23,7 @@ public class Service implements IService {
 
     @Override
     public void subscribe(BankCard bankCard) {
-        User user = bankCard.getUser();
+        var user = bankCard.getUser();
         userStorage.computeIfAbsent(user, u -> new ArrayList<>()).add(bankCard);
         subscriptions.add(new Subscription(bankCard.getNumber(), LocalDate.now()));
     }
