@@ -67,5 +67,8 @@ public class Application {
         System.out.println("\n------- Average users age -------------");
         System.out.println(service.getAverageUsersAge());
 
+        System.out.println("\n------- Checking users payable --------");
+        System.out.printf("%s %s : %b%n", user1.getName(), user1.getSurname(), IService.isPayableUser(user1));
+        System.out.printf("%s %s : %b%n", user2.getName(), user2.getSurname(), IService.isPayableUser(user2));
     }
 }

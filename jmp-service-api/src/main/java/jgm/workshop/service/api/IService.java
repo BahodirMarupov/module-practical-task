@@ -32,4 +32,8 @@ public interface IService {
         return (double) usersAge / usersCount;
     }
 
+    static boolean isPayableUser(User user) {
+        return ChronoUnit.YEARS.between(user.getBirthday(), LocalDate.now()) > 18;
+    }
+
 }
