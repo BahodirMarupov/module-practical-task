@@ -7,7 +7,10 @@ import jgm.workshop.dto.CreditBankCard;
 import jgm.workshop.dto.DebitBankCard;
 import jgm.workshop.dto.User;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
+import java.util.function.BiFunction;
 
 import static jgm.workshop.dto.BankCardType.CREDIT;
 import static jgm.workshop.dto.BankCardType.DEBIT;
@@ -18,14 +21,16 @@ import static jgm.workshop.dto.BankCardType.DEBIT;
  */
 public class Bank implements IBank {
 
+    private final Map<BankCardType, BiFunction<String, User, BankCard>> cardCreators;
+
+    public Bank() {
+        cardCreators = new HashMap<>();
+        cardCreators.put(CREDIT, CreditBankCard::new);
+        cardCreators.put(DEBIT, DebitBankCard::new);
+    }
+
     @Override
     public BankCard createBankCard(User user, BankCardType cardType) {
-        if (CREDIT.equals(cardType)) {
-            return new CreditBankCard(UUID.randomUUID().toString(), user);
-        } else if (DEBIT.equals(cardType)) {
-            return new DebitBankCard(UUID.randomUUID().toString(), user);
-        } else {
-            throw new IllegalArgumentException("wrong card type: " + cardType);
-        }
+        return cardCreators.get(cardType).apply(UUID.randomUUID().toString(), user);
     }
 }
