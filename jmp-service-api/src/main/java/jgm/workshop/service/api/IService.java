@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Predicate;
 
 /**
  * Author: Bakhodirjon_Marupov
@@ -35,5 +36,7 @@ public interface IService {
     static boolean isPayableUser(User user) {
         return ChronoUnit.YEARS.between(user.getBirthday(), LocalDate.now()) > 18;
     }
+
+    List<Subscription> getAllSubscriptionsByCondition(Predicate<Subscription> predicate);
 
 }

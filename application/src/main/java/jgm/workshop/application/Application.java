@@ -48,7 +48,7 @@ public class Application {
         System.out.println(debitCardOfUser2);
 
         IService service = new Service();
-        System.out.println("\n--- Checking initial subscriptions ---");
+        System.out.println("\n-------- Checking initial subscriptions --------");
         try {
             Subscription subscription = service.getSubscriptionByBankCardNumber(creditCardOfUser1.getNumber())
                     .orElseThrow(() -> new SubscriptionNotFoundException("Subscription is not recorder for cardNumber: "
@@ -82,5 +82,8 @@ public class Application {
         System.out.println("\n------- Checking users payable --------");
         System.out.printf("%s %s : %b%n", user1.getName(), user1.getSurname(), IService.isPayableUser(user1));
         System.out.printf("%s %s : %b%n", user2.getName(), user2.getSurname(), IService.isPayableUser(user2));
+
+        System.out.println("\n------- Subscriptions by cardNumber starts with ---------");
+        System.out.println(service.getAllSubscriptionsByCondition(s -> s.getBankcard().startsWith("2")));
     }
 }

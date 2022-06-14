@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="20. Use Collectors.toUnmodifiableList() and method reference it’s applicable.">
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/jgm/workshop/application/exception/SubscriptionNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="21. Create Exception class which will be used into orElseThrow for Optional from getSubscriptionByBankCardNumber().">
       <change beforePath="$PROJECT_DIR$/application/src/main/java/jgm/workshop/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/jgm/workshop/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-cloud-service-impl/src/main/java/jgm/workshop/cloud/service/impl/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-cloud-service-impl/src/main/java/jgm/workshop/cloud/service/impl/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="15236000" />
+      <workItem from="1655122645224" duration="15740000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655195247924</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="21. Create Exception class which will be used into orElseThrow for Optional from getSubscriptionByBankCardNumber().">
+      <created>1655196012910</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655196012910</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +265,7 @@
     <MESSAGE value="18. Add a new default method for Service interface" />
     <MESSAGE value="19. Add a new static method for Service interface" />
     <MESSAGE value="20. Use Collectors.toUnmodifiableList() and method reference it’s applicable." />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Use Collectors.toUnmodifiableList() and method reference it’s applicable." />
+    <MESSAGE value="21. Create Exception class which will be used into orElseThrow for Optional from getSubscriptionByBankCardNumber()." />
+    <option name="LAST_COMMIT_MESSAGE" value="21. Create Exception class which will be used into orElseThrow for Optional from getSubscriptionByBankCardNumber()." />
   </component>
 </project>

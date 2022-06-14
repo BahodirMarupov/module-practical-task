@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * Author: Bakhodirjon_Marupov
@@ -38,5 +40,10 @@ public class Service implements IService {
     @Override
     public List<User> getAllUsers() {
         return List.copyOf(userStorage.keySet());
+    }
+
+    @Override
+    public List<Subscription> getAllSubscriptionsByCondition(Predicate<Subscription> predicate) {
+        return subscriptions.stream().filter(predicate).collect(Collectors.toList());
     }
 }
