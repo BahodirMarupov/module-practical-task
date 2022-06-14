@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="3. Extend BankCard class with">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/BankCardType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/BankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/BankCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/CreditBankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/CreditBankCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/DebitBankCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/DebitBankCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/User.java" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="4. Create enum">
+      <change afterPath="$PROJECT_DIR$/jmp-bank-api/src/main/java/jgm/workshop/api/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmp-bank-api/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-bank-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-bank-api/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -68,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="3124000" />
+      <workItem from="1655122645224" duration="3709000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -91,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655123944252</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4. Create enum">
+      <created>1655183683420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655183683420</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +115,7 @@
     <MESSAGE value="1. Create maven project with 5 modules (see Java 9 modules)" />
     <MESSAGE value="2. Create the fallowing classes under jmp-dto module" />
     <MESSAGE value="3. Extend BankCard class with" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. Extend BankCard class with" />
+    <MESSAGE value="4. Create enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Create enum" />
   </component>
 </project>
