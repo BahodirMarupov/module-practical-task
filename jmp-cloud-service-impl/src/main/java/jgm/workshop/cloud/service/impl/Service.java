@@ -37,6 +37,6 @@ public class Service implements IService {
 
     @Override
     public List<User> getAllUsers() {
-        return new ArrayList<>(userStorage.keySet());
+        return List.copyOf(userStorage.keySet());
     }
 }
