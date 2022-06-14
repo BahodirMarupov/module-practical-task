@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="4. Create enum">
-      <change afterPath="$PROJECT_DIR$/jmp-bank-api/src/main/java/jgm/workshop/api/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jmp-bank-api/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-bank-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-bank-api/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="5. Add Bank interface to jmp-bank-api with" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="3709000" />
+      <workItem from="1655122645224" duration="4029000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -94,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655183683420</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5. Add Bank interface to jmp-bank-api with">
+      <created>1655184541898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655184541898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +119,7 @@
     <MESSAGE value="2. Create the fallowing classes under jmp-dto module" />
     <MESSAGE value="3. Extend BankCard class with" />
     <MESSAGE value="4. Create enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Create enum" />
+    <MESSAGE value="5. Add Bank interface to jmp-bank-api with" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Add Bank interface to jmp-bank-api with" />
   </component>
 </project>
