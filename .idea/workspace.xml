@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="13. Use var for definition of local variables wherever it’s applicable.">
-      <change afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="15. Create application module.">
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="9886000" />
+      <workItem from="1655122645224" duration="10280000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655190401180</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="15. Create application module.">
+      <created>1655190576924</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1655190576924</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
     <MESSAGE value="11. Implement Service into jmp-cloud-service-impl. User Stream API, You can use Memory/DB for data storing" />
     <MESSAGE value="12. Add module-info.java" />
     <MESSAGE value="13. Use var for definition of local variables wherever it’s applicable." />
-    <option name="LAST_COMMIT_MESSAGE" value="13. Use var for definition of local variables wherever it’s applicable." />
+    <MESSAGE value="15. Create application module." />
+    <option name="LAST_COMMIT_MESSAGE" value="15. Create application module." />
   </component>
 </project>
