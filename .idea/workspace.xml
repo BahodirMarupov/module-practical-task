@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="7. Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type:">
-      <change afterPath="$PROJECT_DIR$/jmp-bank-api/src/main/java/jgm/workshop/bank/api/IBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jmp-cloud-bank-impl/src/main/java/jgm/workshop/cloud/bank/impl/Bank.java" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="7. Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type">
+      <change afterPath="$PROJECT_DIR$/jmp-cloud-bank-impl/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-bank-api/src/main/java/jgm/workshop/api/Bank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-bank-api/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-bank-api/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-cloud-bank-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-cloud-bank-impl/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="6621000" />
+      <workItem from="1655122645224" duration="7419000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -110,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655184690163</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="7. Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type">
+      <created>1655187541466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655187541466</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +137,7 @@
     <MESSAGE value="4. Create enum" />
     <MESSAGE value="5. Add Bank interface to jmp-bank-api with" />
     <MESSAGE value="6. Add module-info.java which (done in 5-commit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="6. Add module-info.java which (done in 5-commit)" />
+    <MESSAGE value="7. Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type" />
   </component>
 </project>
