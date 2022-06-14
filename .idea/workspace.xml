@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="22. Add a new method for Service interface and implement it. Demonstrate this method ino application module:">
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="23. Reimplement createBankCard with method reference (ex: CreditBankCard::new).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-cloud-bank-impl/src/main/java/jgm/workshop/cloud/bank/impl/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-cloud-bank-impl/src/main/java/jgm/workshop/cloud/bank/impl/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-cloud-bank-impl/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-cloud-bank-impl/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-cloud-service-impl/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-cloud-service-impl/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="17075000" />
+      <workItem from="1655122645224" duration="19013000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -234,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655196550500</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="23. Reimplement createBankCard with method reference (ex: CreditBankCard::new).">
+      <created>1655198063322</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655198063322</updated>
+    </task>
+    <task id="LOCAL-00023" summary="23. Reimplement createBankCard with method reference (ex: CreditBankCard::new).">
+      <created>1655198095989</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655198095989</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +288,7 @@
     <MESSAGE value="20. Use Collectors.toUnmodifiableList() and method reference it’s applicable." />
     <MESSAGE value="21. Create Exception class which will be used into orElseThrow for Optional from getSubscriptionByBankCardNumber()." />
     <MESSAGE value="22. Add a new method for Service interface and implement it. Demonstrate this method ino application module:" />
-    <option name="LAST_COMMIT_MESSAGE" value="22. Add a new method for Service interface and implement it. Demonstrate this method ino application module:" />
+    <MESSAGE value="23. Reimplement createBankCard with method reference (ex: CreditBankCard::new)." />
+    <option name="LAST_COMMIT_MESSAGE" value="23. Reimplement createBankCard with method reference (ex: CreditBankCard::new)." />
   </component>
 </project>
