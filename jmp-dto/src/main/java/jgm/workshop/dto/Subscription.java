@@ -1,4 +1,4 @@
-package jgm.workshop;
+package jgm.workshop.dto;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package jgm.workshop;
+package jgm.workshop.dto;
 
 /**
  * Author: Bakhodirjon_Marupov
@@ -7,6 +7,14 @@ package jgm.workshop;
 public abstract class BankCard {
     private String number;
     private User user;
+
+    public BankCard() {
+    }
+
+    public BankCard(String number, User user) {
+        this.number = number;
+        this.user = user;
+    }
 
     public String getNumber() {
         return number;
