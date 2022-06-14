@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="8. Add module-info.java which">
-      <change afterPath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jmp-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-service-api/pom.xml" afterDir="false" />
+    <list default="true" id="235f22be-07bf-45a0-84ee-05f1c5208e05" name="Changes" comment="10. Add module-info.java">
+      <change afterPath="$PROJECT_DIR$/jmp-cloud-service-impl/src/main/java/jgm/workshop/cloud/service/impl/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-cloud-service-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-cloud-service-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-dto/src/main/java/jgm/workshop/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jmp-service-api/src/main/java/jgm/workshop/service/api/IService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655122643918</updated>
-      <workItem from="1655122645224" duration="7831000" />
+      <workItem from="1655122645224" duration="9506000" />
     </task>
     <task id="LOCAL-00001" summary="1. Create maven project with 5 modules (see Java 9 modules)">
       <created>1655123154884</created>
@@ -120,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655188121590</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="9. Add Service interface to jmp-service-api">
+      <created>1655188603357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655188603357</updated>
+    </task>
+    <task id="LOCAL-00010" summary="10. Add module-info.java">
+      <created>1655188689809</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655188689809</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +164,8 @@
     <MESSAGE value="6. Add module-info.java which (done in 5-commit)" />
     <MESSAGE value="7. Implement Bank into jmp-cloud-bank-impl. Method should create a new class depending on the type" />
     <MESSAGE value="8. Add module-info.java which" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. Add module-info.java which" />
+    <MESSAGE value="9. Add Service interface to jmp-service-api" />
+    <MESSAGE value="10. Add module-info.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="10. Add module-info.java" />
   </component>
 </project>

@@ -10,6 +10,14 @@ public class Subscription {
     private String bankcard;
     private LocalDate startDate;
 
+    public Subscription() {
+    }
+
+    public Subscription(String bankcard, LocalDate startDate) {
+        this.bankcard = bankcard;
+        this.startDate = startDate;
+    }
+
     public String getBankcard() {
         return bankcard;
     }

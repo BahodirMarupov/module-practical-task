@@ -15,7 +15,7 @@ public interface IService {
 
     void subscribe(BankCard bankCard);
 
-    Optional<Subscription> getSubscriptionByBankCardNumber(String bankCardNumber);
+    Optional<Subscription> getSubscriptionByBankCardNumber(String cardNumber);
 
     List<User> getAllUsers();
 
